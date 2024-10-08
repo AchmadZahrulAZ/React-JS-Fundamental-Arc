@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /*test komentar*/
+      :root {
+        --color-text: red;
+        --biru: blue;
+      }
+
+      p {
+        color: var(--color-text);
+      }
+
+      h1 {
+        color: var(--biru);
+      }
+
+      @media (max-width: 720px) {
+        p {
+          color: purple;
+        }
+      }
+
+      @media (max-width: 480px) {
+        h1 {
+          color: yellow;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello world</h1>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+  </body>
+</html>
